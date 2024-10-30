@@ -1,0 +1,71 @@
+/* Bump This Stylesheet */
+/* Created By Kishan Shiyaliya */
+/* Date 14-02-2014 */
+
+#bump-this {
+	width:100%;
+	float:left;
+	text-align:left;
+	margin: 5px 0;
+}
+
+#bump-this input[type="submit"], .bump-this-button {
+	background: #41a62a;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 5px 15px 5px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+	float:left;
+	margin:7px 7px 0 0;
+}
+
+#bump-this input[disabled="disabled"] {
+	opacity:0.7;
+}
+
+.bump-this-button:hover{
+	background-color: #41a62a;
+	color: #fff;
+}
+
+.bump_counter{
+	margin-top:5px;
+}
+
+.bump-this-arrow-left {
+	background:url(images/counter1.png);
+	width: 15px;
+	height: 30px; 
+	float:left;
+}
+
+.bump-this-count-right{
+	background:url(images/counter3.png);
+	width: 6px;
+	height: 30px; 
+	float:left;
+}
+
+.bump-this-count {
+	font-size: 12px;
+	font-weight: 700;
+	padding: 0 5px;
+	text-transform: uppercase;
+	display:inline-block;
+	line-height:30px;
+	background:url(images/counter2.png) repeat;
+	float:left;
+	height:30px;
+}
+
+#bump-this-error {
+	width:100%;
+	float:left;
+	text-align:center;
+	color:#F00;
+	display:none;
+}
